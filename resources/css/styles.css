@@ -1,0 +1,394 @@
+html {
+    height: 100vh;
+    margin: 0;
+    color: #FFF;
+    font-family: 'Ubuntu', sans-serif
+}
+
+body {
+    display: block;
+    min-height: 100vh;
+    margin: 0;
+    margin-bottom: 0 !important;
+    background: #003B39
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    text-align: center;
+    font-size: 30px;
+    background: #629C9A;
+}
+
+input {
+    font-size: 1em !important;
+    text-align: center !important;
+    color: #FFF !important
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vh;
+    height: 65px;
+    padding: 1em;
+    text-align: center;
+    background: rgba(33, 108, 105, .4);
+    color: #FFF
+}
+
+.personal-menu {
+    display: block;
+    width: 100px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    line-height: 70px
+}
+
+.personal-menu .shopping-bag {
+    display: inline-block;
+    margin: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 1px;
+    line-height: 50px;
+    font-size: 25px;
+    text-align: center;
+    color: #FFF
+}
+
+.title {
+    display: block;
+    top: 0;
+    left: 100px;
+    margin: 0;
+    padding: 0;
+    line-height: 70px;
+    font-size: 1.5em;
+    text-align: left;
+    color: #FFF
+}
+
+.add-article{
+}
+
+/* */
+
+.decal {
+    position: fixed;
+    width: 100vh;
+    top: 70px;
+    height: 2px;
+    margin: 0 !important;
+    border-bottom: 1px solid #3B827F;
+    background: #3B827F
+}
+
+/* */
+
+content {
+    padding: 0 !important;
+    background: #003B39
+}
+
+.form {
+    padding: 0 !important;
+}
+
+/* */
+
+.search-content {
+    min-height: 100vh;
+    height: 100vh;
+    margin-top: 5em;
+    overflow: hidden;
+}
+
+.search-title {
+    font-size: 2em;
+    text-align: center;
+    color: #FFF
+}
+
+.search-product-input {
+    font-size: 3em !important;
+}
+
+.search-product-input:focus {
+    outline-style: none;
+    outline-width: 0
+}
+
+/* */
+
+.product-content {
+    padding: 0 !important;
+    height: 100vh;
+    margin-top: 5em;
+    overflow: hidden;
+    color: #FFF;
+    background: #0E5653
+}
+
+.product-content .product-table-title {
+    border-bottom: solid;
+    font-style: italic;
+}
+
+.product-content .products-title {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 3em;
+    text-align: center;
+}
+
+.product-content .product-item-title {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 !important;
+}
+
+.product-content .product-row {
+    display: flex;
+}
+
+.product-content .product-item {
+    text-align: center;
+    border-style: solid;
+    font-size: 1em;
+    padding: 0 !important;
+    border-width: 2px;
+    height: 50px
+}
+
+.product-content .product-item-submit {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    padding: 0 !important;
+    color: #000 !important;
+}
+
+.product-content .product-item-count {
+    color: #000
+}
+
+
+/* */
+
+.product-shopping-cart {
+    height: 100vh;
+    margin-top: 5em;
+    font-size: 1em;
+    text-align: center;
+    color: #FFF
+}
+
+.product-shopping-cart .cart-title {
+    font-size: 2em !important;
+}
+
+.product-shopping-cart .cart-item {
+    border: solid;
+    border-width: thin;
+}
+
+.product-shopping-cart .cart-item .cart-item-attr-title {
+    margin: 20px;
+    font-size: 1em;
+    font-style: italic;
+}
+
+.product-shopping-cart .cart-item .cart-item-attr {
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+.product-shopping-cart .cart-item .cart-item-attr-submit {
+	color: #000 !important;
+	padding-left: 1em;
+    padding-right: 1em; 
+    font-size: 1em !important
+}
+
+.product-shopping-cart .cart-item .cart-item-attr-submit .cart-item-remove-button {
+	color: #000 !important;
+	padding-left: 1em;
+    padding-right: 1em; 
+    font-size: 1em !important
+}
+
+
+.product-shopping-cart .cart-submit-button {
+    padding-left: 1em;
+    padding-right: 1em; 
+    font-size: 2em !important;
+    color: #000 !important
+}
+
+/* login */
+
+.login-box {
+    margin-top: 75px;
+    overflow: hidden;
+}
+
+.login-box .login-fields {
+    margin-top: 5em;
+}
+
+.login-box .login-field {
+    margin-top: 1em;
+}
+
+.login-box .login-buttons {
+    display: inline-block;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.login-box .login-buttons .login-button {
+    float: left;
+    color: #000 !important
+}
+
+.login-box .login-buttons .login-button {
+    font-size: 2em;
+    width: 100px; 
+    margin: 1em;
+    float: left;
+    color: #000 !important;
+}
+
+/* Admin Panel **/
+
+.kunden-bestellungen {
+    display: block;
+    width: 100vh;
+    margin-top: 5em;
+    padding: 0 !important;
+}
+
+.kunden-bestellungen .kunden-bestellungen-title {
+    margin: 1em;
+    text-align: center;
+    font-size: 4em;
+    color: #FFF;
+    font-style: italic;
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 5px;
+}
+
+.kunden-bestellungen .kunden-bestellungen-col-titles {
+    font-size: 3em;
+    color: #FFF;
+    font-style: italic;
+    margin: 1em;
+    text-align: center;
+}
+
+.kunden-bestellungen .kunden-bestellung {
+    font-size: 2em;
+    display: block;
+}
+
+.kunden-bestellungen .bcol {
+    border: solid;
+    border-width: 1px;
+    height: 50px;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    text-align: center;
+    color: #FFF;
+    
+}
+
+.kunden-bestellungen .bcol .admin-submit{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #000 !important;
+    text-align: center;
+    border: solid;
+    border-width: 1px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0 !important;
+    
+}
+
+.lieferanten-bestellungen {
+    display: block;
+    width: 100vh;
+    margin-top: 5em;
+    padding: 0 !important;
+}
+
+.lieferanten-bestellungen .lieferanten-bestellungen-title {
+    margin: 1em;
+    text-align: center;
+    font-size: 4em;
+    color: #FFF;
+    font-style: italic;
+    border-bottom: solid;
+    border-top: solid;
+    border-width: 5px;
+}
+
+.lieferanten-bestellungen .lieferanten-bestellungen-col-titles {
+    font-size: 3em;
+    color: #FFF;
+    font-style: italic;
+    margin: 1em;
+    text-align: center;
+}
+
+.lieferanten-bestellungen .liefer-bestellung {
+    font-size: 2em;
+    display: block;
+}
+
+.lieferanten-bestellungen .bcol {
+    border: solid;
+    border-width: 1px;
+    height: 50px;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    text-align: center;
+    color: #FFF;
+    
+}
+
+.lieferanten-bestellungen .bcol .admin-submit{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #000 !important;
+    text-align: center;
+    border: solid;
+    border-width: 1px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0 !important;
+    
+}
+
+input[type="submit"]:active {
+    box-shadow: 0 3px 0 #00823F;
+    top: 3px;
+}
+
+
+
+
+
+
